@@ -79,7 +79,7 @@ const fakeUsers = [
       city: 'Budapest',
       country: 'Hungary'
     }
-    // Add more fake user data as needed
+   
   ];
   
   function renderTable(users) {
@@ -125,7 +125,7 @@ const fakeUsers = [
     }
   
     displayFilteredData(sortedData);
-    renderTable(fakeUsers); // Display the original table
+    renderTable(fakeUsers); 
    
   }
   
